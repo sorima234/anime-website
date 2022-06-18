@@ -1,0 +1,71 @@
+* {box-sizing: border-box}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 60px 140px;
+  height: 100%;
+}
+body {
+  background-image: url(img/background.jpg);
+  padding-left: 80px;
+  padding-top: 25px;
+  padding-right: 80px;
+}
+
+#Home {background-color:#964646;}
+#Products {background-color:#D2691E;}
+#About {background-color: #4682B4;}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+  font-family: Roboto;
+  text-align: center;
+}
+
+#naruto {
+  width: 460px;
+  height: 400px;
+  float: left;
+  margin: 7px;
+  padding-right: 80px;
+}
+#roger {
+  float: left;
+  height: 520px;
+  width: 650px;
+  padding-right: 70px;
+}

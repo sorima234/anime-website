@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anime Website</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <button class="tablink" > </button>
+        <button class="tablink" onclick="openPage('Home', this, '#964646')" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openPage('Products', this, '#D2691E')">Products</button>
+        <button class="tablink" onclick="openPage('About', this, '#4682B4')">About</button>
+        <div id="Home" class="tabcontent">
+            <img src="img/manga-station.png" style="padding-left: 72px;">
+            <div style="text-align: justify;text-justify: inter-word;">
+                <img id="naruto" src="img/naruto.jpg">
+                <br><br><br><br><br>
+                Welcome to Manga Station, your favourite manga and anime shop. 
+                Wethere you are an anime veteran or just starting out, 
+                at Manga Station, you can quickly find a huge selection of 
+                manga, anime, and related products. Manga Station specializes 
+                in translated manga and novels (English, Dutch, French, 
+                and German manga), Japanese illustration books, Anime DVDs 
+                and Blue-Ray, PVC figures, Action figures, Cosplay attributes, 
+                key chains, plush dolls and everything an anime fan could wish for.
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+            <p>Copyright 2022. Manga Station.</p>
+        </div>
+        <div id="Products" class="tabcontent">
+            <div class="row">
+                <div class="column">
+                  <img src="img/dragon-ball.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="img/one-piece.jpg" style="width:100%;">
+                </div>
+                <div class="column">
+                    <img src="img/bleach.jpg" style="width:100%">
+                </div>
+              </div>              
+            <p>Copyright 2022. Manga Station.</p>
+        </div>
+        <div id="About" class="tabcontent">
+            <img id="roger" src="img/roger.jpg">
+            <div style="text-align: justify;text-justify: inter-word;">
+                <br><br><br><br><br><br>
+                Manga are comics or graphic novels originating from Japan.
+                Most manga conform to a style developed in Japan in the 
+                late 19th century, and the form has a long prehistory in 
+                earlier Japanese art. The term manga is used in Japan to 
+                refer to both comics and cartooning. 
+            </div>
+            <br><br><br><br><br><br><br><br><br><br>
+            <p>Copyright 2022. Manga Station.</p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
